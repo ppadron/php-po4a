@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Po4a</name>
+ <channel>pear.w3p.com.br</channel>
+ <summary>PHP wrapper to po4a (po for anything)</summary>
+ <description>PHP wrapper to po4a (po for anything)</description>
+ <lead>
+  <name>Pedro Padron</name>
+  <user>ppadron</user>
+  <email>ppadron@w3p.com.br</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-07-09</date>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+ <notes>
+- first release
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file name="Po4a.php" role="php" />
+   <file name="Po4a/Exception.php" role="php" />
+   <file name="tests/Po4aTest.php" role="test" />
+   <file name="tests/files/documents/document.html" role="test" />
+   <file name="tests/files/po4a.cfg" role="test" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+</package>
