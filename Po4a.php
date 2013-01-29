@@ -118,6 +118,7 @@ class Po4a
      * @var array
      */
     protected $availableBuildOptions = array(
+        'options'          => '-o',
         'keep'             => '-k',
         'masterCharset'    => '-M',
         'localizedCharset' => '-L',
